@@ -1,0 +1,177 @@
+body { 
+  margin: 0;
+  font-family: Arial, sans-serif; 
+  background: #0B0D17; 
+  background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa') no-repeat center;
+  background-size: cover;
+}
+header {
+  background: #1E2A5A;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+nav {
+  background: #1E2A5A;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+nav a {
+    background: #6C4ED9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+h1 { 
+  font-size: 38px; margin: 0; 
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.imagenes img {
+  width: 320px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  display: block;
+}
+p {
+  color: white;
+  background: rgba(0, 0, 0, 0.6); 
+  padding: 20px;
+  border-radius: 15px;
+  text-align: justify; 
+  font-size: 16px;
+  line-height: 1.6; 
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+header h1 { 
+  font-size: 38px;
+  margin: 3;
+  background: #8A8FA8;  
+}
+button {
+  background: #6C4ED9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  float: right;
+  margin-top: 15px;
+  cursor: pointer;
+}
+h2 {
+  color: #1a56db; 
+  font-size: 26px;
+  border-left: 6px solid #1a56db; 
+  padding-left: 12px;
+}
+h4 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #6C4ED9;
+  border-bottom: 2px solid #6C4ED9;
+  padding-bottom: 8px;
+}
+.enlaces { 
+  background: #1a56db; 
+  padding: 20px; 
+  border-radius: 8px; 
+  text-align: center; 
+}
+.enlaces a {
+  color: white; background: #0e3aa8; text-decoration: none;
+  padding: 10px 20px; margin: 10px; border-radius: 25px;
+  display: inline-block; font-weight: bold; border: 2px solid white;
+}
+.formulario-contacto {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 22px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.formulario-contacto label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.formulario-contacto input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.formulario-contacto button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #7c5cff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.mi-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 17px;
+  color: white;
+  background-color: #1a1a2e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.mi-tabla th {
+  background: linear-gradient(90deg, #7c5cff, #2563eb);
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.mi-tabla td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+.mi-tabla tr:hover {
+  background-color: #2e2e4a;
+}
